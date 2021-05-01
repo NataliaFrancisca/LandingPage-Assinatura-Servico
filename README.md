@@ -11,7 +11,10 @@
 #### ➡️ Coisas que preciso arrumar:
 
 - [ ] Arrumar as fontes
-- [ ] Arrumar as cores 
+- [X] Arrumar as cores 
 - [ ] Colocar o gradiente do botão
 - [ ] Adicionar a versão mobile
-- [ ] Colocar o efeito no botão "power"
+- [X] Adicionar o efeito no botão toggle
+- [X] Alterar o tamanho do botão toggle
+- [X] Aplicando a modificação das informações de acordo com o toggle
+- [ ] Tentar reduzir o código
