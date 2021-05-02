@@ -12,16 +12,15 @@ for(let x = 0; x < prices.length; x++){
 
 toggleButton.addEventListener("click", () => {
 	
-
 	if(toggleButton.classList == "clicked"){
-		changePrice();
-		toggleButton.classList.add("onclicked");
+		toggleButton.classList.add("notClicked");
 		toggleButton.classList.remove("clicked");
-		return;
+			changePrice();
+			return;
 	}
 
-	if(toggleButton.classList == "onclicked"){
-		toggleButton.classList.remove("onclicked");
+	if(toggleButton.classList == "notClicked"){
+		toggleButton.classList.remove("notClicked");
 		toggleButton.classList.add("clicked");
 
 		for(let x = 0; x < prices.length; x++){
@@ -33,20 +32,18 @@ toggleButton.addEventListener("click", () => {
 
 })
 
-
-
 function changePrice(){
 	
-	let teste = [];
+	let values = [];
 	let valueJoin = [];
 
 	
 	for(let x = 0; x < prices.length; x++){
 
-		teste.push(prices[x].innerHTML.split(""));
+		values.push(prices[x].innerHTML.split(""));
 		
-		teste[x].shift();
-		valueJoin.push(teste[x].join(""));	
+		values[x].shift();
+		valueJoin.push(values[x].join(""));	
 
 		valueJoin[x] = (parseInt(valueJoin[x]) / 10 + 0.09).toFixed(2)
 
