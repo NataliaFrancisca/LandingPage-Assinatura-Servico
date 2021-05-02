@@ -98,7 +98,6 @@ h1{
 	margin-bottom: 20px;
 }
 
-
 .cards{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -107,18 +106,18 @@ h1{
 	/*grid-gap: 2px;*/
 	align-items: center;
 	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
 .cards > div:nth-child(2){
-	height: 330px;
-	background-color: var(--purple-light);
+	height: 380px;
+	background-color: var(--purple-dark);
 	z-index: 1;
 }
 
 .card{
 	width: 250px;
-	height: 300px;
+	height: 350px;
 	background-color: white;
 	border-radius: 0.5rem;
 
@@ -170,7 +169,6 @@ h1{
 	border-bottom: solid rgba(200,200,200,0.5) 0.1rem;
 }
 
-
 .button-learn-more{
 	width: 80%;
 	height: 35px;
@@ -198,3 +196,14 @@ h1{
 	color: var(--purple-light);
 }
 
+button:hover{
+	background: none;
+	border: solid var(--purple-dark) 0.1rem;
+	color: var(--purple-dark);
+}
+
+.card:nth-child(2) .button-learn-more:hover{
+	background: transparent;
+	border: solid white 0.1rem;
+	color: white;
+}
