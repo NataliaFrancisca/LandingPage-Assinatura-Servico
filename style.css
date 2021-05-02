@@ -103,7 +103,6 @@ h1{
 	grid-template-columns: repeat(3, 1fr);
 	max-width: 800px;
 	padding: 10px;
-	/*grid-gap: 2px;*/
 	align-items: center;
 	margin-top: 30px;
 	margin-bottom: 50px;
@@ -184,7 +183,6 @@ h1{
 	letter-spacing: 0.2rem;
 	cursor: pointer;
 	background: linear-gradient(var(--purple-light), var(--purple-dark))
-	/*background: linear-gradient(80deg, var(--purple-light), var(--purple-dark));*/
 }
 
 .card:nth-child(2){
@@ -196,7 +194,7 @@ h1{
 	color: var(--purple-light);
 }
 
-button:hover{
+.button-learn-more:hover{
 	background: none;
 	border: solid var(--purple-dark) 0.1rem;
 	color: var(--purple-dark);
@@ -207,3 +205,19 @@ button:hover{
 	border: solid white 0.1rem;
 	color: white;
 }
+
+@media(max-width: 550px){
+
+	body{
+		height: auto;
+	}
+
+	.cards{
+		grid-template-columns: repeat(1, 1fr);
+		max-width: 400px;
+		gap: 1rem;
+		margin-bottom: 10px;
+	}
+
+}
+

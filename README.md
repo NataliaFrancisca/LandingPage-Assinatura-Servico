@@ -12,9 +12,10 @@
 
 - [ ] Arrumar as fontes
 - [X] Arrumar as cores 
-- [ ] Colocar o gradiente do botão
-- [ ] Adicionar a versão mobile
+- [X] Colocar o gradiente do botão
+- [X] Adicionar a versão mobile
 - [X] Adicionar o efeito no botão toggle
 - [X] Alterar o tamanho do botão toggle
 - [X] Aplicando a modificação das informações de acordo com o toggle
+- [X] Efeito hover nos botões de "saiba mais"
 - [ ] Tentar reduzir o código
