@@ -8,6 +8,8 @@
   
     https://www.youtube.com/watch?v=E_4yR4q9inQ&t=819s
 
+#### :link: ***Veja você mesmo:*** https://landing-page-assinatura-nf.netlify.app/
+
 #### ➡️ Coisas que preciso arrumar:
 
 - [ ] Arrumar as fontes
